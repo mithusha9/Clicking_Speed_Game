@@ -1,0 +1,112 @@
+body{
+    background-color:#303330;
+    position: relative;
+    left: 10%;
+    width: 80%;
+    height: fit-content;
+    
+}
+.timesub{
+   position: relative;
+   height: 25vh;
+}
+.time{
+   position: absolute;
+   top: 10%;
+   left: 45%;
+   width: 20vw;
+   color: white;
+
+}
+.bsttime{
+   position: absolute;
+   top: 10%;
+   left: 70%;
+   color: white;
+}
+.begin{
+   position: relative;
+   height: 20vh;
+}
+.describe{
+   color: green;
+   text-align: left;
+   font-size: 35px;
+   left:2%; 
+   position: absolute; 
+}
+.game{
+   color: green;
+   text-align: right;
+   font-size: 45px;
+   left: 70%;
+   position: absolute;
+}
+.beforebegin{
+   border:1px solid white;
+   position:absolute;
+   padding: 15px;
+   height:93vh;
+   width: 73%;
+   border-radius: 15px;
+   color: green;
+   text-align: center;
+   top: 31%;
+   display: none;
+   z-index: 2;
+   background-color:  rgba(0,0,0,0.5);
+   text-align: center;
+}
+.beforebegin2{
+    border:1px solid white;
+    position:absolute;
+    padding: 15px;
+    height:93vh;
+    width: 73%;
+    border-radius: 15px;
+    color: green;
+    text-align: center;
+    top: 31%;
+    display: none;
+    z-index: 4;
+    background-color:  rgba(0,0,0,0.5);
+    text-align: center;
+ }
+.startbutton{
+    background-color: green;
+    height: 10vh;
+    width: 20vh;
+    margin-top: 20px;
+    color: black;
+}
+.container{
+   border:1px solid white;
+   position: relative;
+   padding: 15px;
+   height:93vh;
+   width: 73%;
+   border-radius: 15px;
+}
+.tiles{
+    height: 20vh;
+   width: 20vh;
+   margin-top: 20px;
+   background-color: black;
+   margin-left: 20px;
+   color: green;
+   font-size: 58px;
+   border: black;
+   border-radius: 15px;
+}
+.lasttiles{
+   height: 20vh;
+   width: 20vh;
+   margin-top: 20px;
+   margin-right: 10px;
+   background-color: black;
+   margin-left: 20px;
+   color: green;
+   font-size: 58px;
+   border: black;
+   border-radius: 15px;
+}
